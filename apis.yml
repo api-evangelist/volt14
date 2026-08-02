@@ -1,7 +1,12 @@
 aid: volt14
 name: Volt14
-description: Volt14 is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Volt14 Solutions Pte Ltd is a Singapore-based deep-tech startup developing silicon-majority
+  anode materials for lithium-ion batteries. Its fully integrated, tunable, and ready-to-use anodes
+  replace conventional graphite to deliver large gains in energy density and lower normalized cell
+  cost, while remaining compatible with existing battery cell manufacturing infrastructure. Target
+  application markets include electric vehicles, consumer electronics, appliances, and power tools.
+  The company is a materials-science and battery-technology producer; it publishes a corporate
+  and careers website but exposes no public developer or API product surface. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/volt14/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://volt14.com/wp-content/uploads/2021/07/cropped-volt14-2-removebg-preview-1-192x192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Batteries
+- Energy Storage
+- Materials Science
+- Lithium-Ion
+- Anode Technology
+- Deep Tech
+- Electric Vehicles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/volt14-domain-security.yml
 - type: Website
   url: https://volt14.com
+- type: Blog
+  url: https://volt14.com/blog/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
